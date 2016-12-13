@@ -8,3 +8,7 @@ This was purely a fun project for me in trying to read more about data visualiza
 
 - Convert into a webapp or embeddable widget
 - Add more information using timelines and markers for cities that have been visited
+
+# License
+
+MIT
