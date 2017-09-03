@@ -2,57 +2,63 @@ $(function () {
     const property = 'hc-key';
 
     const visited_countries = [
-        'in',  // India
-        'np',  // Nepal
-        'th',  // Thailand
-        'sg',  // Singapore
-        'my',  // Malaysia
-        'gb',  // Britain
-        'us',  // US
+        'ae',  // UAE
+        'au',  // Australia
+        'ca',  // Canada
         'ch',  // Switzerland
         'de',  // Germany
         'fr',  // France
+        'gb',  // Britain
+        'in',  // India
         'is',  // Iceland
-        'ae',  // UAE
-        'ca',  // Canada
-        'au'   // Australia
+        'my',  // Malaysia
+        'np',  // Nepal
+        'sg',  // Singapore
+        'th',  // Thailand
+        'us'  // US
     ]
 
     const visited_states_in_india = [
-        'in-wb',
-        'in-pb',
-        'in-ga',
-        'in-2984',
-        'in-jk',
-        'in-hr',
-        'in-tn',
-        'in-ap',
-        'in-ka',
-        'in-mh',
-        'in-or',
-        'in-dl',
-        'in-hp',
-        'in-rj',
-        'in-up',
-        'in-ut',
-        'in-jh',
-        'in-ch',
-        'in-br'
+        // 19/35
+        'in-2984',  // Gujarat
+        'in-ap',  // Andhra Pradesh
+        'in-br',  // Bihar
+        'in-ch',  // Chandigarh
+        'in-dl',  // Delhi
+        'in-ga',  // Goa
+        'in-hp',  // Himachal Pradesh
+        'in-hr',  // Haryana
+        'in-jh',  // Jharkhand
+        'in-jk',  // Jammu and Kashmir
+        'in-ka',  // Karnataka
+        'in-mh',  // Maharashtra
+        'in-or',  // Orissa
+        'in-pb',  // Punjab
+        'in-rj',  // Rajasthan
+        'in-tn',  // Tamil Nadu
+        'in-up',  // Uttar Pradesh
+        'in-ut',  // Utrakhand
+        'in-wb'  // West Bengal
     ]
 
     const visited_states_in_us = [
-        'us-ma',
-        'us-ca',
-        'us-wa',
-        'us-or',
-        'us-wi',
-        'us-nv',
-        'us-sc',
-        'us-ny',
-        'us-nj',
-        'us-fl',
-        'us-ga',
-        'us-az'
+        // 16/50
+        'us-al',  // Alabama
+        'us-az',  // Arizona
+        'us-ca',  // California
+        'us-fl',  // Florida
+        'us-ga',  // Georgia
+        'us-ky',  // Kentucky
+        'us-ma',  // Massachusetts
+        'us-nj',  // New Jersey
+        'us-nv',  // Nevada
+        'us-ny',  // New York
+        'us-nc',  // North Carolina
+        'us-or',  // Oregon
+        'us-sc',  // South Carolina
+        'us-tn',  // Tennessee
+        'us-wa',  // Washington
+        'us-wi'  // Wisconsin
     ];
 
     function getDrilldown(data, visited) {
