@@ -11,6 +11,7 @@ $(function () {
         'gb',  // Britain
         'in',  // India
         'is',  // Iceland
+        'jp',  // Japan
         'my',  // Malaysia
         'np',  // Nepal
         'sg',  // Singapore
