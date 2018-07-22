@@ -2,6 +2,7 @@ $(function () {
     const property = 'hc-key';
 
     const visited_countries = [
+        // Hongkong
         'ae',  // UAE
         'au',  // Australia
         'ca',  // Canada
@@ -11,6 +12,7 @@ $(function () {
         'gb',  // Britain
         'in',  // India
         'is',  // Iceland
+        'kr',  // Korea
         'jp',  // Japan
         'my',  // Malaysia
         'np',  // Nepal
