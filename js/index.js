@@ -60,6 +60,7 @@ $(function () {
         'us-or',  // Oregon
         'us-sc',  // South Carolina
         'us-tn',  // Tennessee
+        'us-ut',  // Utah
         'us-wa',  // Washington
         'us-wi'  // Wisconsin
     ];
