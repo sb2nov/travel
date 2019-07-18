@@ -45,12 +45,13 @@ $(function () {
     ]
 
     const visited_states_in_us = [
-        // 16/50
+        // 17/50
         'us-al',  // Alabama
         'us-az',  // Arizona
         'us-ca',  // California
         'us-fl',  // Florida
         'us-ga',  // Georgia
+        'us-hi',  // Hawaii
         'us-ky',  // Kentucky
         'us-ma',  // Massachusetts
         'us-nj',  // New Jersey
