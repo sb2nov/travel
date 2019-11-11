@@ -49,6 +49,7 @@ $(function () {
         'us-al',  // Alabama
         'us-az',  // Arizona
         'us-ca',  // California
+        'us-co',  // Colorado
         'us-fl',  // Florida
         'us-ga',  // Georgia
         'us-hi',  // Hawaii
