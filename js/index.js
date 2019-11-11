@@ -45,7 +45,7 @@ $(function () {
     ]
 
     const visited_states_in_us = [
-        // 17/50
+        // 19/50
         'us-al',  // Alabama
         'us-az',  // Arizona
         'us-ca',  // California
